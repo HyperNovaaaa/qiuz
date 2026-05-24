@@ -1,0 +1,130 @@
+h3 {
+    color: blue;
+    font-size: 24px;
+    text-align: center;
+background-color: lightblue;
+
+}
+button {
+    background-color: green;
+    color: white;
+    padding: 20px 40px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 60px;
+}
+
+button:hover {
+    background-color: darkgreen;
+}
+h1 {
+    color: red;
+    font-size: 36px;
+    text-align: center;
+    background-color: lightcoral;
+}
+body {
+    background-image: url('https://news.harvard.edu/wp-content/uploads/2022/11/iStock-mathproblems.jpg');
+    
+}
+.buttons {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    border: 2px solid black;
+    padding: 20px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+    background-color: rgba(255, 255, 255, 0.8);
+    display:block;
+}
+.question {
+    font-size: 18px;
+    margin-bottom: 10px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+    padding: 10px;  
+    color: rgb(0, 255, 157);
+    display: inline-block;
+    align-items: center;
+    display:flex;
+     justify-content: center;
+     width: 200px;
+     height: 300px;
+     text-align: center;
+     flex-direction: column;
+     justify-content: center;
+     display:none;
+
+}
+.question:hover {
+    background-color: lightgray;
+    box-shadow: 4px 4px 10px rgba(89, 0, 255, 0.4);
+    border-radius: 5px;
+        color: rgb(255, 0, 0);
+}
+.question:focus {
+    background-color: lightyellow;
+    box-shadow: 4px 4px 10px rgba(255, 0, 0, 0.4);
+    border-radius: 5px;
+    color: rgb(255, 0, 0);
+}
+.question2 {
+    font-size: 18px;
+    margin-bottom: 10px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+    padding: 10px;  
+    color: rgb(0, 255, 157);
+    display: inline-block;
+    align-items: center;
+    display:flex;
+     justify-content: center;
+     width: 200px;
+     height: 300px;
+     text-align: center;
+     flex-direction: column;
+     justify-content: center;
+     display:none;
+
+}
+.question3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+    padding: 10px;  
+    color: rgb(0, 255, 157);
+    display: inline-block;
+    align-items: center;
+    display:flex;
+     justify-content: center;
+     width: 200px;
+     height: 300px;
+     text-align: center;
+     flex-direction: column;
+     justify-content: center;
+     display:none;
+
+}
+.question2:hover {
+    background-color: lightgray;
+    box-shadow: 4px 4px 10px rgba(89, 0, 255, 0.4);
+    border-radius: 5px;
+        color: rgb(255, 0, 0);
+}
+.question2:focus {
+    background-color: lightyellow;
+    box-shadow: 4px 4px 10px rgba(255, 0, 0, 0.4);
+    border-radius: 5px;
+    color: rgb(255, 0, 0);
+}
+.question3:hover {
+    background-color: lightgray;
+    box-shadow: 4px 4px 10px rgba(89, 0, 255, 0.4);
+    border-radius: 5px;
+        color: rgb(255, 0, 0);
+}
+.question3:focus {
+    background-color: lightyellow;
+    box-shadow: 4px 4px 10px rgba(255, 0, 0, 0.4);
+    border-radius: 5px;
+    color: rgb(255, 0, 0);
+}
